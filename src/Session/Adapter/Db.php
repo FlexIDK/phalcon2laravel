@@ -215,9 +215,7 @@ class Db extends AbstractAdapter {
 
         $user_id = null;
         if ($this->user instanceof \Closure) {
-            $user = $this->user;
-            $user = $user();
-
+            $user = ($this->user)();
             $user_id = is_integer($user) ? $user : null;
         }
 
