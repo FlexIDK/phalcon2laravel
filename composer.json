@@ -1,0 +1,25 @@
+{
+  "name": "one23/phalcon2laravel",
+  "type": "library",
+  "homepage": "https://github.com/FlexIDK/phalcon2laravel",
+  "description": "Phalcon 5 DB session adapter in Laravel format",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+  ],
+  "require": {
+    "php" : "~8",
+    "ext-mbstring": "*",
+    "ext-phalcon": "5.*",
+    "illuminate/support": "^v9.42.2",
+    "illuminate/encryption": "^v9.42.2",
+    "illuminate/cookie": "^v9.42.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "One23\\Phalcon2laravel\\": "src"
+    }
+  },
+  "extra": {
+  }
+}
