@@ -4,7 +4,7 @@
   "homepage": "https://github.com/FlexIDK/phalcon2laravel",
   "description": "Phalcon 5 DB session adapter in Laravel format",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "keywords": [
     "phalcon", "laravel", "phalcon 5", "laravel 9", "session adapter db"
   ],
@@ -14,9 +14,9 @@
     "php" : "~8",
     "ext-mbstring": "*",
     "ext-phalcon": "5.*",
-    "illuminate/support": "^5.4|^6|^7|^v8|^v9",
-    "illuminate/encryption": "^5.4|^6|^7|^v8|^v9",
-    "illuminate/cookie": "^v9"
+    "illuminate/support": "^5.4|^6|^7|^v8|^v9|^v10",
+    "illuminate/encryption": "^5.4|^6|^7|^v8|^v9|^v10",
+    "illuminate/cookie": "^v9|^v10"
   },
   "autoload": {
     "psr-4": {
